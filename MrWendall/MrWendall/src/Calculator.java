@@ -35,6 +35,7 @@ public class Calculator {
 			
 			System.out.println("Would you like to go again?");
 			Scanner again = new Scanner(System.in);
+			// It looks as though it gets up to here, and then after taking input it goes ape shit
 				if(again.equals("no")) {
 					calculate = false;
 				}else {
