@@ -9,9 +9,7 @@ public class AnotherThing {
 		System.out.println("What is your last name?");
 		int lastName = scanner.nextInt();
 		
-		if (firstName=7)
 			System.out.println("Your Rock!");
-		else
 			System.out.println("Suck it!");
 		
 		
