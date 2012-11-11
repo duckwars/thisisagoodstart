@@ -16,23 +16,34 @@ public class Calculator {
 		if ("+".equals(operator)) {
 			System.out.println(operator);
 			total = fnum + snum;
+		} else {
+			System.out.println("I don't understand... sorry!");
+			total = 0;
 		} 
+		
 		if ("-".equals(operator)) {
 			System.out.println(operator);
 			total = fnum - snum;
-		}
-		if ("*".equals(operator)) {
-			System.out.println(operator);
-			total = fnum * snum;
-		}
-		if ("/".equals(operator)) {
-			System.out.println(operator);
-			total = fnum / snum;
-		}
-		else {
+		} else {
 			System.out.println("I don't understand... sorry!");
 			total = 0;
 		}
+		
+		if ("*".equals(operator)) {
+			System.out.println(operator);
+			total = fnum * snum;
+		} else {
+			System.out.println("I don't understand... sorry!");
+			total = 0;
+		}
+		
+		if ("/".equals(operator)) {
+			System.out.println(operator);
+			total = fnum / snum;
+		} else {
+			System.out.println("I don't understand... sorry!");
+			total = 0;
+			}
 		
 	   System.out.println(total);
 		
